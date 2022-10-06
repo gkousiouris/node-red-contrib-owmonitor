@@ -1,7 +1,7 @@
 node-red-contrib-owmonitor
 =====================
 
-This is a subflow node in order to monitor the latest performance (sliding window) of Openwhisk actions. The flow pings periodically the target Openwhisk installation in order to retrieve the last executed actions and extract statistics from their execution.
+This is a node in order to monitor the latest performance (sliding window) of Openwhisk actions. The node pings periodically the target Openwhisk installation in order to retrieve the last executed actions and extract statistics from their execution.
 
 ## Install
 
@@ -13,7 +13,7 @@ Run the following command in your Node-RED user directory - typically `~/.node-r
 
 
 
-This is a subflow node in order to monitor the latest performance (sliding window) of Openwhisk actions. The flow pings periodically the target Openwhisk installation in order to retrieve the last executed actions and extract statistics from their execution.
+This is a node in order to monitor the latest performance (sliding window) of Openwhisk actions. The node pings periodically the target Openwhisk installation in order to retrieve the last executed actions and extract statistics from their execution.
 
 Configuration includes:
  - the polling time of the monitor (default 30 seconds, `msg.pollingPeriod`)
