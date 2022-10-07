@@ -237,7 +237,7 @@
             "env": [
                 {
                     "name": "targetEndpoint",
-                    "value": "https://openwhisk.apps.ocphub.physics-faas.eu/api/v1",
+                    "value": "http://10.100.59.182:3233/api/v1",
                     "type": "str"
                 },
                 {
@@ -247,7 +247,7 @@
                 },
                 {
                     "name": "action",
-                    "value": "Inference_3fff08e8-3617-4eb4-b118-4229f30514e3.json",
+                    "value": "myaction.json",
                     "type": "str"
                 },
                 {
